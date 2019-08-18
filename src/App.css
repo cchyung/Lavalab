@@ -266,7 +266,7 @@ button:focus {
 	padding-right: 4vw;
 	padding-bottom: 1.5em;
 	color: #1a1a1a;
-	font-size: 1.5em;
+	font-size: 1.2em;
 }
 
 .community b {
@@ -294,8 +294,7 @@ button:focus {
 	padding-left: 10vw;
 	padding-right: 10vw;
 	padding-bottom: 1.5em;
-	color: #eb7203;
-	font-size: 1.5em;
+	font-size: 1.2em;
 }
 
 .community {
@@ -356,6 +355,10 @@ button:focus {
 	border-width: 4px;
 }
 
+.profile h4 {
+	font-size: 1.3em
+}
+
 .downarrow {
 	max-height: 50px;
 	max-width: 50px;
@@ -363,6 +366,11 @@ button:focus {
 
 .visible-mobile {
 	display: none !important;
+}
+
+.application-message {
+	font-size: 20px;
+	color: white;
 }
 
 @media (max-width: 489px) {

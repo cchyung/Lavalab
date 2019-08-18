@@ -23,20 +23,20 @@ class Team extends Component {
 								subTitle="Director of Operations"
 							/>
 							<Profile
-								src="sahar_rohani.jpg"
-								title="Sahar Rohani"
+								src="natalia_murillo.png"
+								title="Natalia Murillo"
 								subTitle="Director of Community"
 							/>
 						</div>
 						<div className=".col-md-*">
 							<Profile
-								src="ali_m.jpg"
-								title="Ali Malamud"
+								src="markus_snelder.png"
+								title="Markus Snelder"
 								subTitle="Director of Design and Brand"
 							/>
 							<Profile
-								src="jack_zeiders.jpg"
-								title="Jack Zeiders"
+								src="conner_chyung.png"
+								title="Conner Chyung"
 								subTitle="Director of Development"
 							/>
 							<Profile
@@ -47,13 +47,13 @@ class Team extends Component {
 						</div>
 						<div className=".col-md-*">
 							<Profile
-								src="stiven_deleur.jpg"
-								title="Stiven Deleur"
+								src="nikita_takru.png"
+								title="Nikita Takru"
 								subTitle="Director of Sponsorship"
 							/>
 							<Profile
-								src="nat_redfern.jpg"
-								title="Nat Redfern"
+								src="glory_kanes.png"
+								title="Glory Kanes"
 								subTitle="Director of Industry Relations"
 							/>
 						</div>
