@@ -23,7 +23,7 @@ class Team extends Component {
 								subTitle="Director of Operations"
 							/>
 							<Profile
-								src="natalia_murillo.png"
+								src="natalia_murillo.jpg"
 								title="Natalia Murillo"
 								subTitle="Director of Community"
 							/>
