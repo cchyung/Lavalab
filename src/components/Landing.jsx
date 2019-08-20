@@ -1,6 +1,8 @@
 import React, { Component } from "react";
 import "../App.css";
 import YouTube from "react-youtube";
+import ReactPlayer from 'react-player';
+import VideoCover from 'react-video-cover';
 
 import LavaButton from "./Button";
 import Typewriter from "../scripts/Typewriter";
@@ -9,6 +11,8 @@ class Landing extends Component {
 	render() {
 		// for youtube player
 		const opts = {
+			height: '390',
+			height: '640',
 			playerVars: {
 				autoplay: 1,
 				controls: 0,
@@ -20,7 +24,9 @@ class Landing extends Component {
 				iv_load_policy: 3,
 				autohide: 0,
 				rel: 0,
-				start: 41
+				start: 41,
+				disablekb: 1,
+
 			}
 		};
 
@@ -28,12 +34,14 @@ class Landing extends Component {
 			<div className="landing">
 				<div className="video-background">
 					<div className="video-foreground">
-						<YouTube
+						{/* <YouTube
 							videoId="DXZzI302XZs"
 							opts={opts}
 							onReady={this._onReady}
 							onStateChange={this._onStateChange}
-						/>
+						/> */}
+						{/* <ReactPlayer url="https://www.youtube.com/watch?v=DXZzI302XZs" playing={true} volume={0} loop={true}/> */}
+						<VideoCover videoOptions={{src: "sizzle_reel.mp4", autoPlay: true, muted: true, loop: true}}/>
 					</div>
 				</div>
 				<img className="role-image" src="LavaLab_Circle_Orange.png" />
