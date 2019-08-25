@@ -41,7 +41,7 @@ class Landing extends Component {
 							onStateChange={this._onStateChange}
 						/> */}
 						{/* <ReactPlayer url="https://www.youtube.com/watch?v=DXZzI302XZs" playing={true} volume={0} loop={true}/> */}
-						<VideoCover videoOptions={{src: "sizzle_reel.mp4", autoPlay: true, muted: true, loop: true}}/>
+						<VideoCover videoOptions={{src: "sizzle.mp4", autoPlay: true, muted: true, loop: true}}/>
 					</div>
 				</div>
 				<img className="role-image" src="LavaLab_Circle_Orange.png" />
