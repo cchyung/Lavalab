@@ -51,7 +51,8 @@ class Landing extends Component {
 				<br />
 				<div className="row">
 					<div className="centeredButtons">
-						<LavaButton text="Apply Now" link="https://forms.gle/ToCafuPxGgvTHtZZ8"/>
+					
+						<LavaButton text="Apply Now" link="/apply"/>						
 						{/* <p className="application-message">Our application will be open soon!</p> */}
 					</div>
 				</div>
