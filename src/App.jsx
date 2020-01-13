@@ -45,7 +45,7 @@ class App extends Component {
 					<Route exact path="/" component={Main} />
 					{/* <Route path="/apply" component={TypeForm} /> */}
 					<Route path='/apply' component={() => { 
-     					window.location.href = 'https://forms.gle/ToCafuPxGgvTHtZZ8'; 
+     					window.location.href = 'https://docs.google.com/forms/d/e/1FAIpQLSdPvHAHu5mstcZ3hAzo6Xi2NN4mNzGN4WSPcbrsSYQrF4R09A/viewform?usp=sf_link'; 
      					return null;
 					}}/>
 				</div>

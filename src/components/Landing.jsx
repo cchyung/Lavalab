@@ -52,8 +52,8 @@ class Landing extends Component {
 				<div className="row">
 					<div className="centeredButtons">
 					
-						{/* <LavaButton text="Apply Now" link="/apply"/>						 */}
-						<p className="application-message">Spring 2020 applications open Jan 13!</p>
+						<LavaButton text="Apply Now" link="/apply"/>						
+						{/* <p className="application-message">Spring 2020 applications open Jan 13!</p> */}
 					</div>
 				</div>
 				<div className="row">

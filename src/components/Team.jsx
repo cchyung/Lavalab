@@ -18,8 +18,8 @@ class Team extends Component {
 								subTitle="Managing Director"
 							/>
 							<Profile
-								src="gavin_bains.jpg"
-								title="Gavin Bains"
+								src="viren_parmar.jpg"
+								title="Viren Parmar"
 								subTitle="Director of Operations"
 							/>
 							<Profile
@@ -40,8 +40,8 @@ class Team extends Component {
 								subTitle="Director of Development"
 							/>
 							<Profile
-								src="gus_goetze.jpg"
-								title="Gus Goetze"
+								src="bella_archer.jpg"
+								title="Bella Archer"
 								subTitle="Director of Recruitment"
 							/>
 						</div>
