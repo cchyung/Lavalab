@@ -26,7 +26,7 @@ class Community extends Component {
                         </div>
                         <div className="col-md-4">
                           <img className="role-image" src="production.png"/>
-                          <h1>1 Producer</h1>
+                          <h1>1 Product Manager</h1>
                           <p>
                             Multidisiplinary and disruptive. Someone who has big ideas and knows how to growth hack.
                           </p>
