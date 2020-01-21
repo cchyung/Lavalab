@@ -31,7 +31,7 @@ const Main = () => {
 };
 
 const TypeForm = () => {
-	ReactGA.pageview("/apply");
+	ReactGA.pageview("/applynow");
 	return (
 		<ReactTypeformEmbed url={"https://usclavalab.typeform.com/to/Sn9pHn"} />
 	);
@@ -44,7 +44,7 @@ class App extends Component {
 				<div className="test">
 					<Route exact path="/" component={Main} />
 					{/* <Route path="/apply" component={TypeForm} /> */}
-					<Route path='/apply' component={() => { 
+					<Route path='/applynow' component={() => { 
      					window.location.href = 'https://docs.google.com/forms/d/e/1FAIpQLSdPvHAHu5mstcZ3hAzo6Xi2NN4mNzGN4WSPcbrsSYQrF4R09A/viewform?usp=sf_link'; 
      					return null;
 					}}/>
