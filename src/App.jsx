@@ -30,12 +30,12 @@ const Main = () => {
 	);
 };
 
-const TypeForm = () => {
-	ReactGA.pageview("/applynow");
-	return (
-		<ReactTypeformEmbed url={"https://usclavalab.typeform.com/to/Sn9pHn"} />
-	);
-};
+// const TypeForm = () => {
+// 	ReactGA.pageview("/applynow");
+// 	return (
+// 		<ReactTypeformEmbed url={"https://usclavalab.typeform.com/to/Sn9pHn"} />
+// 	);
+// };
 
 class App extends Component {
 	render() {
